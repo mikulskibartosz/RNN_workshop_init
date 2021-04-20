@@ -4,7 +4,7 @@
 
 1. W wybranym przez siebie managerze pakietów Pythona tworzymy nowe środowisko Python 3.9 i instalujemy następujące pakiety: `pandas, numpy, requests, tensorflow, keras-tuner, scipy, jupyter, matplotlib`. Przy użyciu Pipenv można zrobić to w następujący sposób: `pipenv install --dev pandas numpy requests tensorflow keras-tuner scipy jupyter matplotlib`.
 2. Uruchamiany utworzone środowisko (w Pipenv: `pipenv shell`) oraz Jupyter Notebook: `jupyter notebook`).
-3. Importujemy wszystkie używany w czasie warsztatu pakiety:
+3. W nowym notebooku, importujemy wszystkie używany w czasie warsztatu pakiety:
 ```python
 import pandas as pd
 import numpy as np
